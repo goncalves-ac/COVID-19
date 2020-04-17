@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagem/big_thevirus_4.png" />
+    <title>[ COVID-19 ]</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="mouseBody">
+    <div class="corpoTexto">
+        <div class="navBar">
+            <div>
+                <h1><span class="colchete">[</span> COVID-19 <span class="colchete">]</span></h1>
+                <h5>[ Corona Vírus ]</h5>
+            </div>
+            <div>
+                <div><a href="#">Home</a></div>
+                <div><a href="sobre.html">Sobre</a></div>
+                <div><a href="contato.html">Contato</a></div>
+                <div><a href="saibaMais.html">Saiba Mais</a></div>
+            </div>
+        </div>
+        <hr>
+        <div class="poster">
+            <img id="newsVirus" src="./imagem/NewsVirus.gif" alt="Notícias" title="Notícias">
+        </div>
+        <hr>
+        <div>
+            <h2>[ Principais Notícias ]</h2>
+        </div>
+        <div class="noticiasEscrita">
+            <div class="noticia">
+                <h3>[ COVID - 19]</h3>
+                <img class="imgNoticia1" src="./imagem/PresoVirus.gif" alt="Corona Vírus" title="Corona Vírus">
+                <p class="conteudo">A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2, que apresenta um quadro clínico que varia de infecções assintomáticas a quadros 
+                respiratórios graves. De acordo com a Organização Mundial de Saúde (OMS), a maioria dos pacientes com COVID-19 (cerca de 80%) podem ser assintomáticos 
+                e cerca de 20% dos casos podem requerer atendimento hospitalar por apresentarem dificuldade respiratória e desses casos aproximadamente 5% podem 
+                necessitar de suporte para o tratamento de insuficiência respiratória (suporte ventilatório).</p>
+                <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid">[ Fonte ]</a>
+            </div>
+            <div class="noticia">
+                <h3>[ Ministério da Saúde institui ação estratégica para o enfrentamento da pandemia do coronavírus. ]</h3>
+                <p class="conteudo">Voltada para os alunos de graduação em Medicina, Enfermagem, Fisioterapia e Farmácia, a ação tem como objetivo otimizar os serviços de saúde do SUS, 
+                durante a pandemia, de forma integrada com as atividades de graduação na área da saúde.</p>
+                <img class="imgNoticia2" src="./imagem/StopVirus.gif" alt="Previnir Contaminação" title="Previnir Contaminação">
+                <a href="https://www.unasus.gov.br/noticia/ministerio-da-saude-institui-acao-estrategica-para-o-enfrentamento-da-pandemia-do-coronavirus">[ Fonte ]</a>
+            </div>
+        </div>
+        <div>
+            <h2>[ Videos Infantis ]</h2>
+        </div>
+        <div class="noticiasVideo">
+            <div class="video"> 
+                <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="makeBig()">Big</button>
+                <button onclick="makeSmall()">Small</button>
+                <button onclick="makeNormal()">Normal</button>
+                <br><br>
+                <video id="video1" width="420">
+                  <source src="./video/CoronaVirusPipoca.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <p class="conteudo2">Explicação do COVID-19 com a Teoria da Pipoca.<br> Ciências Médicas.</p>
+            </div>
+            <div class="video"> 
+                <button onclick="playPause2()">Play/Pause</button> 
+                <button onclick="makeBig2()">Big</button>
+                <button onclick="makeSmall2()">Small</button>
+                <button onclick="makeNormal2()">Normal</button>
+                <br><br>
+                <video id="video2" width="420">
+                  <source src="./video/CoronaVirusMonica.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <p class="conteudo2">Música com a Turma da Mônica.</p>
+            </div> 
+        </div>
+        <div>
+            <h2>[ Agência do Rádio Mais ]</h2>
+        </div>
+        <div class="noticiasAudio">
+            <div class="noticia">
+                <h3>[ Testes rápidos de coronavírus serão usados primeiro em profissionais de saúde e segurança pública. ]</h3>
+                <audio controls>
+                    <source src="./audio/TestesRapidos.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <p class="conteudo">O Ministério da Saúde informou que os 500 mil testes rápidos para detectar o coronavírus 
+                já estão sendo analisados para que sejam distribuídos em todos os estados.</p>
+                <a href="https://www.agenciadoradio.com.br/noticias/testes-rapidos-de-coronavirus-serao-usados-primeiro-em-profissionais-de-saude-e-seguranca-publica-covi200055">[ Fonte ]</a>
+            </div>
+            <div class="noticia">
+                <h3>[ Brasil registra mais de 1.700 mortes por Covid-19. ]</h3>
+                <audio controls>
+                    <source src="./audio/BrasilMortes.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <p class="conteudo">A quantidade de pessoas infectadas por coronavírus, no Brasil, subiu para 28.320 e o número de mortes chegou a 1.736.</p>
+                <a href="https://www.agenciadoradio.com.br/noticias/brasil-registra-mais-de-1-700-mortes-por-covid-19-covi200064">[ Fonte ]</a>
+            </div>
+        </div>
+    </div>
+    <div class="rodape">
+        <div class="redesSociais">
+            <a href="https://www.instagram.com/?hl=pt-br"><img class="logo" src="./imagem/instagram.png" alt="Instagram" title="Instagram"></a>
+            <a href="https://pt-br.facebook.com/"><img class="logo" src="./imagem/facebook.png" alt="Facebook" title="Facebook"></a>
+            <a href="https://twitter.com/login?lang=pt"><img class="logo" src="./imagem/twitter.png" alt="Twitter" title="Twitter"></a>
+            <a href="https://www.whatsapp.com/"><img class="logo" src="./imagem/whatsapp.png" alt="Whatsapp" title="Whatsapp"></a>
+        </div>
+        <div class="email">
+            <h3>Receba Novidades</h3>
+            <input type="email" id="inputEmail" placeholder="Digite seu e-mail.">
+            <button><a href="emailRegistrado.html">Enviar</a></button>
+        </div>
+    </div>
+    
+    <!-- Código que carrega arquivos JavaScript -->
+    <script src="./scripts.js"></script>
+</body>
+</html>
