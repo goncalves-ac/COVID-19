@@ -124,6 +124,10 @@ textarea {
     width: 80%;
 }
 
+.imgNoticia2 {
+    width: 100%;
+}
+
 .imgNoticia1, .imgNoticia2 {
     padding: 10px;
 }
