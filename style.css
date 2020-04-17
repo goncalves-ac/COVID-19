@@ -75,12 +75,14 @@ h3 {
 
 button {
     font-family: cursive;
+    font-size: 17px;
     background-color: #207403;
     border-color: #207403;
     border-radius: 15%;
     width: 100px;
     height: 40px;
     align-items: center;
+    font-weight: bolder;
 }
 
 input {
