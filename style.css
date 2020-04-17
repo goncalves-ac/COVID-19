@@ -27,7 +27,7 @@ body {
 }
 
 a {
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: unset;
     color: #000;
 }
