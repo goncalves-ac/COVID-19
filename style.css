@@ -102,6 +102,10 @@ textarea {
     text-align: center;
 }
 
+#inputEmail2 {
+    width: auto;
+}
+
 .noticiasVideo, .noticiasAudio, .noticiasEscrita {
     display: flex;
     justify-content: space-around;
