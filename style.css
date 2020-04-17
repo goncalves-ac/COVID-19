@@ -22,7 +22,7 @@ body {
 
 .navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 30px;
 }
 
