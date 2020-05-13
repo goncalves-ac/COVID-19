@@ -22,3 +22,5 @@ Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem.
 
 ## Site
 Link: https://covid19-acg.netlify.app/
+
+<img src='https://github.com/goncalves-ac/COVID-19/blob/master/imagem/covid19.png'>
