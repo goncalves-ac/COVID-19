@@ -19,3 +19,6 @@ Além disso, criem um menu de navegação e as páginas respectivas de:
 - Saiba Mais: curadoria de fontes de onde você tirou essas notícias, para o caso da pessoa querer navegar e descobrir outras.
 
 Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem.
+
+## Site
+Link: https://covid19-acg.netlify.app/
